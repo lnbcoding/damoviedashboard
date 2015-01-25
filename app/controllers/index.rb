@@ -21,3 +21,19 @@ get '/movies/popular' do
 
   erb :movies
 end
+
+get '/movie/search' do
+  movie_title = params[:title].force_encoding('ASCII-8BIT')
+  movie_year = params[:year]
+
+  movie_title = URI::encode(movie_title)
+
+  movie_string = HTTParty.get("http://www.omdbapi.com/?t=#{movie_title}+&y=#{movie_year}+&plot=short&r=json")
+
+  if movie_string
+    @movie = JSON.parse(movie_string)
+    erb :movie
+  else
+    redirect '/'
+  end
+end
