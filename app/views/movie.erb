@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div class="movie-bg">
+    <h1>Da Movie Results</h1>
+
+    <div >
+      <img class="movie-poster" src="<%= @movie["Poster"] %>">
+    </div>
+
+    <div class="movie-info">
+      <% @movie.take(17).each do |key, value| %>
+        <% next if "#{key}" == "Poster" %>
+        <li><%= "#{key}: " + @movie[key] %></li>
+      <% end %>
+    </div>
+  </div>
+
+</div>
