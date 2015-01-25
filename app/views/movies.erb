@@ -1,0 +1,15 @@
+<div class="container">
+
+  <div class="popular-bg">
+    <h1>Da Most Popular Movies</h1>
+
+      <% @top_movies.each_with_index do |item, index| %>
+        <div class="popular-movies">
+          <p><%= @top_movies[index]['title'] %></p>
+          <p>Vote Average: <%= @top_movies[index]['vote_average'] %></p>
+          <p>Vote Count: <%= @top_movies[index]['vote_count'] %></p>
+        </div>
+      <% end %>
+    </div>
+
+</div>
