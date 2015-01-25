@@ -1,0 +1,28 @@
+<div class="container">
+
+  <div class="search-bg">
+    <h1>Da Movie Dashboard</h1>
+      <% @top_movies.each_with_index do |item, index| %>
+        <div class="popular-movies-home">
+            <p><%= @top_movies[index]['title'] %></p>
+            <p>Vote Average: <%= @top_movies[index]['vote_average'] %></p>
+            <p>Vote Count: <%= @top_movies[index]['vote_count'] %></p>
+        </div>
+      <% end %>
+  </div>
+
+  <div class="search-box">
+    <form action="/movie/search" method="get">
+      <label>Movie Title</label>
+      <input type="text" name="title" placeholder="A Beautiful Mind" />
+      <label>Year</label>
+      <input type="text" name="year" placeholder="2001" />
+      <button>Search for Movie</button>
+    </form>
+  </div>
+
+  <div class="popular-movies-link">
+    <a href="/movies/popular">See the 15 Most Popular Movies</a>
+  </div>
+
+</div>
