@@ -1,9 +1,126 @@
+/*********************************************************************
+  General HTML
+**********************************************************************/
 .container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  max-width: 98%;
+  height: 900px;
+  margin: 25px 25px;
+  background-position: 50px 5px;
+  background-repeat: no-repeat;
 }
-th {
-  text-align: left;
+
+li {
+  list-style-type: none;
+}
+
+a {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+a:hover {
+  color: green;
+}
+
+/*********************************************************************
+  Text and Headers
+**********************************************************************/
+html {
+  font-family: 'Walter Turncoat', cursive, sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+
+  background-color: beige;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+  font-size: 2 em;
+  text-align: center;
+  color: blue;
+}
+
+/*********************************************************************
+  Search Page
+**********************************************************************/
+.search-bg {
+  background: url("http://imageserver.moviepilot.com/-4a87d39c-2dc2-4519-b757-d8b4e3de8c3a.jpeg?width=1000&height=604") no-repeat center center;
+  height: 900px;
+  margin: 25px 25px;
+}
+
+.popular-movies-link {
+  margin-top: 5%;
+  height: 100px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.search-box {
+  position: fixed;
+
+/*Retina 13 inch*/
+/*1280x800*/
+/*  top: 15%;
+  left: 17%;
+*/
+
+  /*1680x1050*/
+  top: 21%;
+  left: 24%;
+
+  /*1920x1080*/
+}
+
+/*********************************************************************
+  Popular Movies
+**********************************************************************/
+.popular-bg {
+  background: url("http://imageserver.moviepilot.com/-4a87d39c-2dc2-4519-b757-d8b4e3de8c3a.jpeg?width=1000&height=604") no-repeat center center;
+  height: 900px;
+  margin: 25px 25px;
+}
+
+.popular-movies, .popular-movies-home {
+  float: left;
+  width: 24%;
+  margin: 2%;
+  margin-left: 3.5%;
+  border: 3px;
+  border-style: dotted;
+  height: 200px;
+  padding: 15px;
+  background-color: red;
+}
+
+/*********************************************************************
+  Single Movie Results Page
+**********************************************************************/
+.movie-bg {
+  height: 900px;
+  margin: 25px 25px;
+}
+
+img {
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  float: left;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+  width: 550px;
+}
+
+.movie-info {
+  text-align:  center;
+  text-decoration: none;
+}
+
+.movie-info li {
+  font-size: 1.25em;
+  padding-top: 10px;
 }
