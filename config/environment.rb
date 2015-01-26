@@ -15,8 +15,8 @@ require 'pg'
 require 'active_record'
 require 'logger'
 require "httparty"
-require 'dotenv'
-Dotenv.load
+# require 'dotenv'
+# Dotenv.load
 
 require 'open-uri'
 
