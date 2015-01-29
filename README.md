@@ -11,7 +11,7 @@ This app will use open source movie db APIs to search for movies
 There is also a popular, top 15 movies based on a different API (themoviedb) that has their own algo to track the most popular movies 
 
 **Release 1.0**
-- MVP-Heroku-Ruby
+- MVP-Heroku-Ruby is the branch that is deployed to Heroku
 
 - User can search for any movie
 - User can click to see the top, 15 popular movies
