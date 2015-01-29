@@ -18,6 +18,6 @@ MVP-Heroku-Ruby
 - Deploy to Heroku
 
 Future Release
-Trying to use Express, Angular and Node for an all Javascript version
+- Trying to use Express, Angular and Node for an all Javascript version
 
 
