@@ -14,7 +14,9 @@ There is also a popular, top 15 movies based on a different API (themoviedb) tha
 - MVP-Heroku-Ruby is the branch that is deployed to Heroku
 
 - User can search for any movie
+
 - User can click to see the top, 15 popular movies
+ 
 - Deploy to Heroku
 
 **Future Release**
