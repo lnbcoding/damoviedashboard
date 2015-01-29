@@ -10,14 +10,14 @@ This app will use open source movie db APIs to search for movies
 
 There is also a popular, top 15 movies based on a different API (themoviedb) that has their own algo to track the most popular movies 
 
-Release 1.0
-MVP-Heroku-Ruby
+**Release 1.0**
+- MVP-Heroku-Ruby
 
 - User can search for any movie
 - User can click to see the top, 15 popular movies
 - Deploy to Heroku
 
-Future Release
+**Future Release**
 - Trying to use Express, Angular and Node for an all Javascript version
 
 
