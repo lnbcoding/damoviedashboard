@@ -6,7 +6,7 @@ This app will use open source movie db APIs to search for movies
 - The search results will display various Movie Info:
 - Title, Year, Rated, Plot, Awards, IMDB Rating and # of Votes, etc...
 
-There is also a popular, top 15 movies based on a different API (themoviedb) that has their own algo to track the most popular movies 
+There is also a popular, top 15 movies based on a different API (themoviedb) that has their own algo to track the most popular movies
 
 Release 1.0
 MVP-Heroku-Ruby
@@ -17,5 +17,4 @@ MVP-Heroku-Ruby
 
 Future Release
 Trying to use Express, Angular and Node for an all Javascript version
-
 
